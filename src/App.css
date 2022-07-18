@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display: flex;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.container_card {
+  background-color: blueviolet;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.container_form {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form input {
+  border-radius: 6px;
+  background-color: rgb(243, 242, 240);
+  border: 0;
+  height: 30px;
+  width: 400px;
+}
+
+.card {
+  /* margin-top: 60px; */
+  display: flex;
+  width: 300px;
+  height: 80px;
+  padding: 4rem;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  border-radius: 15px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+}
+
+.button_form {
+  background-color: rgb(55, 233, 174);
+  border: 0;
+  height: 30px;
+  width: 400px;
+  border-radius: 6px;
+  color: azure;
+}
